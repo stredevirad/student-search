@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 600px;
+  max-width: 90%;
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-top: 10px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+input {
+  flex: 1;
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #555;
+}
+
+button {
+  padding: 14px 22px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #222;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #444;
+}
+
+.student-card {
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 12px;
+  background: #f7f7f7;
+}
+
+.student-card h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.student-info p {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-info p:last-child {
+  border-bottom: none;
+}
+
+.student-info span {
+  color: #666;
+}
+
+.message,
+.student-not-found {
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.student-not-found {
+  background: #ffe9e9;
+}
+
+.student-not-found h2 {
+  margin-top: 0;
+}
+
+.error {
+  background: #fff0f0;
+}
